@@ -1,0 +1,15 @@
+/* Importing a custom font */
+@font-face {
+    font-family: 'BomberSquad';
+    src: url('/fonts/BomberSquadShadow.ttf')  format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'BomberSquad';
+    src: url("/public/fonts/BomberSquad.ttf");
+    font-weight: bold;
+    font-style: normal;
+  }
+  
