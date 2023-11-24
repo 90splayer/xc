@@ -40,7 +40,7 @@ const Project: FC<{ project: ProjectProps }> = ({ project }) => {
       <p>{title1}</p>
       <motion.div variants={anim} animate={isActive ? "open" : "closed"} className='imgContainer relative'>
         <img src={`${src}`} alt={title1} />
-        <FaPlayCircle className='absolute bottom-[40%] right-[40%] w-6 h-6'/>
+        <FaPlayCircle className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  w-6 h-6'/>
       </motion.div>
       <p>{title2}</p>
     </a>

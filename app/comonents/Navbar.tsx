@@ -33,9 +33,8 @@ const [isOpen, setIsOpen] = useState(false)
             <GoDotFill/>
         </li>
     </ul>
-    <div className="w-full lg:hidden flex items-center justify-center md:gap-[40%] gap-[25%] pt-8">
-    <div><Image src={xc} alt="" width={28} height={28} className="flex object-contain"/></div>
-    <div><RxHamburgerMenu onClick={() => {setIsOpen(true)}} className='flex w-8 h-8 text-white'/></div>  
+    <div className="w-full lg:hidden flex items-center justify-center pt-8">
+    <RxHamburgerMenu onClick={() => {setIsOpen(true)}} className='flex w-8 h-8 text-white'/> 
     </div>
         { isOpen?
                <div className="lg:hidden absolute top-0 right-0 h-[100vh] w-full z-50 text-white flex flex-col gap-7 items-start justify-start pl-8 pt-4 pr-4 bg-black">        

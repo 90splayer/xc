@@ -6,9 +6,9 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div className="w-[80%] text-xs">
-    <div className="w-full md:border-t md:px-16 py-8 flex md:flex-row flex-col items-center justify-between gap-8">
-        <h1>90S PLAYER &copy;</h1>
-        <div className="flex items-center justify-center gap-16">
+    <div className="w-full md:border-t md:px-16 py-8 flex md:flex-row flex-col md:items-center items-start justify-between gap-8">
+        <h1 className="w-full flex">90S PLAYER &copy;</h1>
+        <div className="w-full flex items-center justify-center gap-16">
             <Link href='https://michaelojogbo.vercel.app'>MICHAEL OJOGBO</Link>
             <div className="flex items-center justify-center gap-8">
                 <IoLogoInstagram href="https://instagram.com/90splayer" target={"_blank"}/>

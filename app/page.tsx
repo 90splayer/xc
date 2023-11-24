@@ -57,7 +57,7 @@ export default function Home() {
       <Contact />
       <Footer />
       <motion.button
-        className={`fixed bottom-0 right-0 pr-2 pb-20 z-50 items-center text-xs flex gap-2 scrollToTopButton ${isVisible ? 'visible' : ''}`}
+        className={`fixed bottom-0 right-0 bg-black rounded-s-full px-4 py-2 mr-6 mb-[71px] z-50 items-center text-xs flex gap-2 scrollToTopButton ${isVisible ? 'visible' : ''}`}
         onClick={scrollToTop}
       >
         BACK TO TOP
